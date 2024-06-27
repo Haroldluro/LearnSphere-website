@@ -208,13 +208,14 @@ main {
 }
 
 footer {
-    background-color: #ffd700; 
+    background-color: #ffd700; /* yellow background */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
     position: relative;
-    height: 40px;
+    padding: 0px 20px;
+    height: 80px;
+    margin-top: auto;
 }
 
 footer p {
@@ -236,7 +237,7 @@ footer a {
     color: #000;
     font-weight: bold;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end; 
     width: 100%;
 }
 
