@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    line-height: 5;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    width: 100%;
+}
+.navbar li:hover {
+    background-color: #ffcc00;
+}
+
+.navbar li a:hover {
+    color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    width: 100%;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.login button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login button:hover {
+    background-color: #777777;
+}
+
+.main {
+    background: url('project/books.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: #fff;
+    padding: 255px 10px;
+    position: relative;
+    box-shadow: 0 30px 8px rgba(0, 0, 0, 0.1);  
+    
+}
+
+.main h1 {
+    font-size: 3em;
+    margin: 0;
+      
+}
+
+.main h2 {
+    font-size: 10em;
+    margin: 0;
+}
+
+.main p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.main .login-btn {
+    background-color: #2d2d2d; 
+    color: white;
+    border: 2px solid #1e90ff; 
+    border-radius: 20px; 
+    padding: 15px 25px; 
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+    cursor: pointer; 
+    outline: none; 
+    position: relative;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); 
+    
+    
+}
+
+.main .login-btn:before {
+    content: ''; 
+    position: absolute;
+    top: -4px;
+    left: -4px; 
+    right: -4px;
+    bottom: -4px; 
+    border-radius: 25px; 
+    border: 2px solid rgba(30, 144, 255, 0.6); 
+    z-index: -1;
+}
+
+.main .login-btn:hover {
+    background-color: #1e90ff;
+    color: #2d2d2d; 
+}
+
+
+
+.courses {
+    text-align: center;
+    padding: 30px 50px;
+    background-color: #f9f9f9;
+}
+
+.courses h2 {
+    font-size: 4em;
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+.course {
+    border: 2px solid #000;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 250px; 
+    box-shadow: 0 15px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.course:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+.course img {
+    max-width: 100%;
+    height: 50%;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+
+.course button {
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #ffd700; /* yellow background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0px 20px;
+    height: 80px;
+    margin-top: auto;
+}
+
+footer p {
+    display: flex;
+    justify-content: flex-start;    
+    width: 100%;
+}
+
+footer .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end; 
+    width: 100%;
+}
+
+footer a:hover {
+    color: white;
+}
